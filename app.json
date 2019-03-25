@@ -1,0 +1,45 @@
+{
+  "pages": [
+    
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/XYFW/XYFW",
+    "pages/XX/XX",
+    "pages/GRZX/GRZX",
+    "pages/GRZX/login/login"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#42c8f4",
+    "navigationBarTitleText": "We湖商",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "images/icon_shouye.png",
+        "selectedIconPath": "images/icon_shouye_selected.png"
+      },
+      {
+        "pagePath": "pages/XYFW/XYFW",
+        "text": "校园服务",
+        "iconPath": "images/icon_school.png",
+        "selectedIconPath": "images/icon_school_selected.png"
+      },
+      {
+        "pagePath": "pages/XX/XX",
+        "text": "消息",
+        "iconPath": "images/icon_message.png",
+        "selectedIconPath": "images/icon_message_selected.png"
+      },
+      {
+        "pagePath": "pages/GRZX/GRZX",
+        "text": "个人中心",
+        "iconPath": "images/icon_person.png",
+        "selectedIconPath": "images/icon_person_selected.png"
+      }
+    ]
+  }
+}

@@ -1,0 +1,24 @@
+<view class='bean'>
+  <view class='information'>
+    <image src='{{userInfo.avatarUrl}}'></image>
+    <view hover-class=''>{{userInfo.nickName}}</view>
+  </view>
+  <view class='fun'>
+    <view class='browse'>
+      <image src='/images/GRGL/浏览.png'></image>
+      <view>浏览足迹</view>
+    </view>
+    <view class='fabulous'>
+      <image src='/images/GRGL/点赞.png'></image>
+      <view>我的点赞</view>
+    </view>
+    <view class='feedback'>
+      <image src='/images/GRGL/反馈.png'></image>
+      <view>反馈</view>
+    </view>
+    <view class='about'>
+      <image src='/images/GRGL/关于.png'></image>
+      <view>关于</view>
+    </view>
+  </view>
+</view>

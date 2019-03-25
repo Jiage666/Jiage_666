@@ -1,0 +1,48 @@
+<view class="container">
+  <view>
+    
+    <view class ='view_serch' style='center;'>
+    <view class='view_serch1' ><image class='image_serch1' src='/images/search.png' style='center;'></image></view>
+    <input class='input_serch' name="key" type="text" placeholder="搜索帖子，或者用户" ></input>  
+    <view class='view_serch2' bindtap='upper'><image class='image_serch2' style='center;'   src='/images/lighting.png'></image></view>
+
+    </view>
+
+
+    <image class="image1" style="width: 750rpx; height: 450rpx;" src='{{src}}' >
+    
+     
+      
+     
+      
+  
+
+    </image>
+
+  </view>
+
+
+
+   <scroll-view>
+      <view class="top-tab flex-wrp flex-tab " >
+
+      <view class="view_navigator" bindtap='view_nav1' >今日推荐</view>
+      <view class="view_navigator" bindtap='view_nav2'>最新发帖</view>
+      <view class="view_navigator" bindtap='view_nav3'>最新回复</view>
+    
+      </view>
+
+      
+
+
+      
+
+
+     </scroll-view>
+
+</view>
+
+
+
+
+

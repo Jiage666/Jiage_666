@@ -1,0 +1,54 @@
+page {
+  background: #f6f6f6;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.bean{
+ background: #f6f6f6;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  font-size: 25px;
+}
+.fun image{
+  float: left;
+  width: 30px;
+  height: 30px;
+}
+.fun view{
+  background: white;
+}
+.information {
+  background: white;
+  margin-top: 40rpx;
+  border: 1px solid rgba(255, 255, 255, 0.938);
+  border-left: none;
+  border-right: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  transition: all 300ms ease;
+  text-indent:5%;
+  width: 100%;
+  height: 20%;
+}
+.information image{
+  float: left;
+  width: 100px;
+  height: 100px;
+}
+ 
+.browse ,.fabulous,.feedback ,.about{
+  margin-top: 20rpx;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-left: none;
+  border-right: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  transition: all 300ms ease;
+  text-indent:5%;
+  width: 100%;
+  height: 30%;
+}
