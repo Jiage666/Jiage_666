@@ -31,6 +31,7 @@ Page({
         // this.setData({
         //   userInfo: res.userInfo
         // })
+         
       }
     })
     
